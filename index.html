@@ -129,6 +129,8 @@
                  <!-- Skills -->
                 <section class="flex min-h-0 flex-col gap-y-3">
                     <h2 class="text-xl font-bold">Skills</h2>
+                   
+
                     <div class="flex flex-wrap gap-1">
                         <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">TypeScript</div>
                         <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">React/Next.js</div>
@@ -146,37 +148,160 @@
                 <!-- Projects -->
                 <section class="flex min-h-0 flex-col gap-y-3 print-force-new-page scroll-mb-16 print:pt-6">
                     <h2 class="text-xl font-bold">Projects</h2>
-                    <div class="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-                        <div class="rounded-lg bg-card text-card-foreground dark:bg-secondary flex flex-col overflow-hidden border border-muted p-3">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <!-- Project Card -->
+                        <div class="rounded-lg bg-card text-card-foreground dark:bg-secondary flex flex-col overflow-hidden border border-muted p-3 h-[320px]">
                             <div class="flex flex-col space-y-1.5">
-                                <div class="space-y-1">
-                                    <h3 class="font-semibold tracking-tight text-base">
-                                        <a href="https://github.com/SujithThirumalaisamy/remote-execution-engine" target="_blank" class="inline-flex items-center gap-1 hover:underline">
-                                            Remote Execution Engine
-                                            <!-- -->
-                                            <span class="size-1 rounded-full bg-green-500"></span>
-                                        </a>
-                                    </h3>
-                                    <div class="hidden font-mono text-xs underline print:visible">github.comSujithThirumalaisamy/remote-execution-engine</div>
-                                    <p class="text-muted-foreground font-mono text-xs">Developing a highly scalable remote code execution and testing engine with HA Kubernetes.</p>
+                                <h3 class="font-semibold tracking-tight text-base">
+                                    <a href="https://jobify-nbw1.onrender.com/" target="_blank" class="inline-flex items-center gap-1 hover:underline">
+                                        Jobify
+                                        <span class="size-1 rounded-full bg-green-500"></span>
+                                    </a>
+                                </h3>
+                                <div class="hidden font-mono text-xs underline print:visible">
+                                    github.com/Jatin04072005/jobify
                                 </div>
+                                <p class="text-muted-foreground font-mono text-xs line-clamp-3">
+                                    A full-stack MERN application for users to find job opportunities, post job listings, and connect employers with potential employees.
+                                </p>
                             </div>
                             <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
                                 <div class="mt-2 flex flex-wrap gap-1">
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Project</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Language Runtimes</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Kubernetes</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">SQL/NoSQL</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">System Design</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Shell Scripting</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">NodeJS</div>
-                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Microservices</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">MERN Stack</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Job Portal</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Node.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Express.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">MongoDB</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">React</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Redux</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Authentication</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">REST API</div>
                                 </div>
                             </div>
                         </div>
-                   
+                
+                        <div class="rounded-lg bg-card text-card-foreground dark:bg-secondary flex flex-col overflow-hidden border border-muted p-3 h-[320px]">
+                            <div class="flex flex-col space-y-1.5">
+                                <h3 class="font-semibold tracking-tight text-base">
+                                    <a href="https://phone-15.netlify.app" target="_blank" class="inline-flex items-center gap-1 hover:underline">
+                                        iPhone 3D
+                                        <span class="size-1 rounded-full bg-green-500"></span>
+                                    </a>
+                                </h3>
+                                <div class="hidden font-mono text-xs underline print:visible">
+                                    github.com/Jatin04072005/iphone-3d
+                                </div>
+                                <p class="text-muted-foreground font-mono text-xs line-clamp-3">
+                                    A visually stunning 3D representation of Apple's iPhone, created using GSAP, Three.js, React, Tailwind CSS, and JavaScript.
+                                </p>
+                            </div>
+                            <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
+                                <div class="mt-2 flex flex-wrap gap-1">
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">3D Frontend</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">GSAP</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Three.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">React</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">JavaScript</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Tailwind CSS</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Animation</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">WebGL</div>
+                                </div>
+                            </div>
+                        </div>
+                
+
+                        <div class="rounded-lg bg-card text-card-foreground dark:bg-secondary flex flex-col overflow-hidden border border-muted p-3 h-[320px]">
+                            <div class="flex flex-col space-y-1.5">
+                                <h3 class="font-semibold tracking-tight text-base">
+                                    <a href="https://cravee.vercel.app/" target="_blank" class="inline-flex items-center gap-1 hover:underline">
+                                        Cravee
+                                        <span class="size-1 rounded-full bg-green-500"></span>
+                                    </a>
+                                </h3>
+                                <div class="hidden font-mono text-xs underline print:visible">
+                                    github.com/Jatin04072005/cravee
+                                </div>
+                                <p class="text-muted-foreground font-mono text-xs line-clamp-3">
+                                    A full-stack MERN application for food ordering. It features intuitive UI and seamless functionality for food lovers.
+                                </p>
+                            </div>
+                            <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
+                                <div class="mt-2 flex flex-wrap gap-1">
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Full Stack</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">MERN</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">MongoDB</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">React</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Node.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Express.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Redux Toolkit</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Tailwind CSS</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="rounded-lg bg-card text-card-foreground dark:bg-secondary flex flex-col overflow-hidden border border-muted p-3 h-[320px]">
+                            <div class="flex flex-col space-y-1.5">
+                                <h3 class="font-semibold tracking-tight text-base">
+                                    <a href="https://web-wallet.netlify.app/" target="_blank" class="inline-flex items-center gap-1 hover:underline">
+                                        Web3 Wallet
+                                        <span class="size-1 rounded-full bg-green-500"></span>
+                                    </a>
+                                </h3>
+                                <div class="hidden font-mono text-xs underline print:visible">
+                                    github.com/Jatin04072005/web3-wallet
+                                </div>
+                                <p class="text-muted-foreground font-mono text-xs line-clamp-3">
+                                    A secure Web3-based wallet application for generating mnemonics and displaying account balances. Built using React, ethers.js, Web3.js, and Tailwind CSS.
+                                </p>
+                            </div>
+                            <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
+                                <div class="mt-2 flex flex-wrap gap-1">
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Web3</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Ethers.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Web3.js</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">React</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Tailwind CSS</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Crypto</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Mnemonic</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Balance</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="rounded-lg bg-card text-card-foreground dark:bg-secondary flex flex-col overflow-hidden border border-muted p-3 h-[320px]">
+                            <div class="flex flex-col space-y-1.5">
+                                <h3 class="font-semibold tracking-tight text-base">
+                                    <a href="https://assets-org-front-end-demo.vercel.app/" target="_blank" class="inline-flex items-center gap-1 hover:underline">
+                                        Asset.org Front-End Demo
+                                        <span class="size-1 rounded-full bg-green-500"></span>
+                                    </a>
+                                </h3>
+                                <div class="hidden font-mono text-xs underline print:visible">
+                                    github.com/Jatin04072005/assets.org-frontend-demo
+                                </div>
+                                <p class="text-muted-foreground font-mono text-xs line-clamp-3">
+                                    A front-end demo project to showcase the potential UI for Asset.org, Built using React, Tailwind CSS, and modern JavaScript.
+                                </p>
+                            </div>
+                            <div class="text-pretty font-mono text-sm text-muted-foreground mt-auto flex">
+                                <div class="mt-2 flex flex-wrap gap-1">
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Front-End</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">React</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Tailwind CSS</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">JavaScript</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">UI/UX</div>
+                                    <div class="inline-flex items-center rounded-md border font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px]">Asset Management</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more project cards as needed -->
+
                     </div>
                 </section>
+                
                
                 
                      <!-- Education -->
@@ -204,23 +329,26 @@
                         <div class="flex flex-col space-y-1.5">
                             <div class="flex items-center justify-between gap-x-2 text-base">
                                 <h3 class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                                    <a class="hover:underline" href="https://datavidhya.com">Data Vidhya</a>
+                                    <a class="hover:underline" href="https://github.com/Jatin04072005/assets.org-frontend-demo">Asset.org</a>
                                     <span class="inline-flex gap-x-1">
-                                        <div class="inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 align-middle text-xs">Remote Intern</div>
+                                        <div class="inline-flex items-center rounded-md border px-2 py-0.5 font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 align-middle text-xs">Front-End Developer</div>
                                     </span>
                                 </h3>
-                                <div class="text-sm tabular-nums text-gray-500">May 2024
+                                <div class="text-sm tabular-nums text-gray-500">March 2024
                                 <!-- -->
                                 - 
                                 <!-- -->
                                 June 2024</div>
                             </div>
-                            <h4 class="font-mono text-sm leading-none">Full Stack Developer → DevOps Engineer</h4>
+                            <h4 class="font-mono text-sm leading-none">Front-End Development for Asset Management</h4>
                         </div>
-                        <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">Built an effective platform for students to learn Data Engineering using dynamic and automated infrastructure provisioning with Terraform and with a UI/UX friendly frontend application</div>
+                        <div class="text-pretty font-mono text-muted-foreground mt-2 text-xs">
+                            Developed the front-end for Asset.org's platform, focusing on user-friendly UI/UX, asset management features, and dynamic data integration using React, Tailwind CSS, and JavaScript.
+                            It was an unpaid internship.
+                        </div>
                     </div>
-                    
                 </section>
+                
                 
             </section>
             <p class="fixed bottom-0 left-0 right-0 hidden border-t border-t-muted bg-white p-1 text-center text-sm text-muted-foreground print:hidden xl:block dark:bg-gray-950">
